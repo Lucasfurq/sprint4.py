@@ -25,7 +25,6 @@ Este repositório contém:
 | `resultados.csv` | Métricas geradas pela simulação |
 | `grafico_comparativo.png` | Curvas de potência dos dois cenários |
 | `grafico_metricas.png` | Barras comparando custo, importação, ponta e autossuficiência |
-| `docs/` | Diagramas e prints do sistema (adicionar) |
 
 Como executar:
 
