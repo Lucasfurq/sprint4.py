@@ -80,8 +80,6 @@ python simulador.py
 | Monitoramento e visualização | Plataforma SEMS Portal | Visualização de dados |
 | Algoritmo de prioridade/tarifa | Modos de operação do inversor | Algoritmos inteligentes |
 
-> **Conferir** os modelos exatos nos datasheets oficiais da Goodwe antes de citar no vídeo e na entrega.
-
 ## 5. Resultados (simulação de 1 dia)
 
 Dados sintéticos com semente fixa (reprodutíveis). Saída de `python simulador.py`:
