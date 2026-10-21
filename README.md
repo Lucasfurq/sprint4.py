@@ -9,9 +9,9 @@
 | Nome | RM |
 |---|---|
 | Lucas Furquim Lima | 568690 |
-| [NOME 2] | [RM] |
-| [NOME 3] | [RM] |
-| [NOME 4] | [RM] |
+| Diogo Chiaradia | 570246 |
+| Gustavo Torres de Oliveira | 572952 |
+| Rafael Laprega | 561975 |
 
 ## 2. Visão geral
 
@@ -24,6 +24,7 @@ Este repositório contém:
 | `simulador.py` | Simulador de 24 h (passos de 15 min) com os cenários Convencional × Inteligente |
 | `resultados.csv` | Métricas geradas pela simulação |
 | `grafico_comparativo.png` | Curvas de potência dos dois cenários |
+| `grafico_metricas.png` | Barras comparando custo, importação, ponta e autossuficiência |
 | `docs/` | Diagramas e prints do sistema (adicionar) |
 
 Como executar:
@@ -100,7 +101,13 @@ Dados sintéticos com semente fixa (reprodutíveis). Saída de `python simulador
 
 **Redução de custo: 56,9%** · **Importação da rede: −57%** · **Importação na ponta: zerada** · VE 100% carregado nos dois cenários.
 
+**Curvas de potência ao longo do dia:**
+
 ![Comparativo](grafico_comparativo.png)
+
+**Métricas principais lado a lado:**
+
+![Métricas](grafico_metricas.png)
 
 **Leitura qualitativa:** no cenário A o VE entra às 9h, puxa até 5,4 kW da rede e a casa ainda importa na ponta. No cenário B o VE acompanha a curva solar, a bateria cobre a ponta e a rede só entra às 22h30, na tarifa mais barata.
 
@@ -118,9 +125,3 @@ Dados sintéticos com semente fixa (reprodutíveis). Saída de `python simulador
 - Python 3, NumPy, Matplotlib
 - Goodwe: documentação de inversores híbridos, baterias Lynx Home, wallbox e SEMS Portal (goodwe.com)
 - [ADICIONAR: ANEEL/Resolução 1000 e tarifa branca, Lei 14.300, fator de emissão do MCTI]
-
-## 8. Próximos passos
-
-- Integrar o assistente virtual do projeto (chatbot do EV Challenge) para responder perguntas sobre o estado da simulação. *(incluir aqui apenas se estiver realmente integrado)*
-- Dashboard de visualização em tempo real.
-- Usar dados reais de geração e consumo.
