@@ -124,4 +124,3 @@ Dados sintéticos com semente fixa (reprodutíveis). Saída de `python simulador
 
 - Python 3, NumPy, Matplotlib
 - Goodwe: documentação de inversores híbridos, baterias Lynx Home, wallbox e SEMS Portal (goodwe.com)
-- [ADICIONAR: ANEEL/Resolução 1000 e tarifa branca, Lei 14.300, fator de emissão do MCTI]
